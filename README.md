@@ -3,7 +3,7 @@
 PowerShell File Hash Checker
 This PowerShell script allows users to search for files with a specific SHA256 hash within a selected directory. It is designed to work on systems running PowerShell versions below 7, without performance tuning optimizations due to limitations in older versions.
 Features
-User Input for SHA256 Hash: Prompts the user to enter the hash to search for.
+User Input for SHA256 Hash: Prompts the user to enter the hash to search for. This is with input sanitization for prefix suffix spaces.
 Directory Selection: Allows users to browse and select the directory to scan.
 Progress Indicator: Displays a progress bar to show the scanning status.
 Sequential Processing: Processes files one by one, ensuring compatibility with PowerShell versions below 7.
